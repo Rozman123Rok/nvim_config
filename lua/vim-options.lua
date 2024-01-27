@@ -8,6 +8,7 @@ vim.g.mapleader = " "
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- min num of lines to keep above and below the cursor when scrolling
 vim.opt.scrolloff = 8
 
 -- file explorer
