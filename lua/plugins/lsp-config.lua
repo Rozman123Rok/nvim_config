@@ -30,6 +30,9 @@ return {
 			lspconfig.html.setup({
         capabilities = capabilities
 			})
+			lspconfig.pylsp.setup({
+        capabilities = capabilities
+			})
 
 			-- Keymaps
 			local opts = {}
